@@ -5,13 +5,6 @@ import (
 )
 func TestBasic(t *testing.T) {
 
-
-
-
-
-
-
-
 	type Author struct {
 		Name string
 		Age int
@@ -21,19 +14,6 @@ func TestBasic(t *testing.T) {
 		Age: 27,
 	}
 	Debug(nimo)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 

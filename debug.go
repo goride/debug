@@ -45,8 +45,8 @@ func startServer () {
 	}
 }
 func Debug (v ...interface{}) {
+	recordList = append(recordList, Record{Time: time.Now(), Value: v})
 	for _, value := range v {
-		recordList = append(recordList, Record{Time: time.Now(), Value: value})
 		output := map[string]interface{}{
 			"value": value,
 		}
