@@ -12,6 +12,7 @@
 
 `go get github.com/goride/debug`
 
+Start debug-cli [https://github.com/goride/debug-cli](https://github.com/goride/debug-cli)
 
 ## use 
 
